@@ -1,0 +1,217 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 45px;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    margin-right: 45px;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4AB3F4;
+}
+
+.twitter {
+    width: 25px;
+    position: absolute;
+    left: 50%;
+}
+
+.tweet-button {
+    color: white;
+    background-color: #4AB3F4;
+    margin-right: 45px;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    background-color: #e6ecf0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90;
+    max-width: 1190px;
+    margin: 75px auto;
+
+}
+
+.profile-container {
+    background-color: white;
+    width: 290px;
+    height: 240px;
+}
+
+.cover-picture {
+    background-color: black;
+    padding: 20px 45px 30px 45px;
+    width: 200px;
+}
+
+.profile-picture-container {
+    margin-top: -25px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.your-pfp {
+    margin-bottom: 20px;
+}
+
+.your-handle {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.your-profile {
+    text-decoration: underline;
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.num {
+    color: #4AB3F4;
+}
+
+
+.messages-container {
+    width: 590px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: white;
+}
+
+.ht-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet {
+    margin-top: -10px;
+}
+
+
+.who-to-follow-page {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 290px;
+    height: 240px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.hf-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-buttons {
+    color: #4AB3F4;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4AB3F4;
+    border-radius: 15px;
+    max-width: 80px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: white;
+}
+
+.handle {
+    color: gray;
+}
+
+.profile-name {
+    color: black;
+}
+
+.pfp {
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.tweet-pfp {
+    margin-top: 15px;
+}
+
+.follow-pfp {
+    margin-top: 20px;
+}
+
+.md-profile-picture {
+    max-width: 70px;
+    
+}
+
+.sm-profile-picture {
+    max-width: 40px;
+}
+
+
+@media (max-width : 1200px) {
+    .who-to-follow-page {
+        display: none;
+    }
+}
